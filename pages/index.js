@@ -12,6 +12,7 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import bose from "../public/bose_landing.jpg";
 import mybike from "../public/mybike_landing.jpg"
+import parcelapp from "../public/parcel-request-app_vue.jpg"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -178,7 +179,7 @@ export default function Home() {
               for consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from programming services.
+              I offer programming services.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -211,6 +212,22 @@ export default function Home() {
                 layout="responsive"
                 src={bose}
                 alt='Bose Landing Page'
+                />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href='https://github.com/purpleFade/Parcel-Delivery-Request-App'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={parcelapp}
+                alt='Parcel delivery request app'
                 />
               </a>
             </div>
