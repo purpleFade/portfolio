@@ -198,6 +198,9 @@ export default function Home() {
                 alt='MyBiKE Landing Page'
                 />
               </a>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                My Bike&apos;s website is built using JavaScript, SCSS, and HTML, offering a user-friendly platform for bike enthusiasts.🔥️
+              </p>
             </div>
             <div className="basis-1/3 flex-1">
               <a
@@ -214,6 +217,9 @@ export default function Home() {
                 alt='Bose Landing Page'
                 />
               </a>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                Bose&apos;s landing page showcases their products and brand using JavaScript, SCSS, and HTML for an engaging online experience.
+              </p>
             </div>
             <div className="basis-1/3 flex-1">
               <a
@@ -230,6 +236,9 @@ export default function Home() {
                 alt='Parcel delivery request app'
                 />
               </a>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                Parcel delivery request app is built using Vue.js, CSS, HTML, and TypeScript offering a user-friendly platform for parcel delivery.🔥️
+              </p>
             </div>
           </div>
         </section>
