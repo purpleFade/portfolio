@@ -13,9 +13,10 @@ import Image from "next/image";
 import bose from "../public/bose_landing.jpg";
 import mybike from "../public/mybike_landing.jpg"
 import parcelapp from "../public/parcel-request-app_vue.jpg"
+import todoapp from "../public/todo-app_react.jpg"
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -183,6 +184,44 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <a
+                href='https://purplefade.github.io/react_todo-app/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={todoapp}
+                alt='Todo app React'
+                />
+              </a>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                 Todo app is built using React and TypeScript offering a user-friendly platform for managing tasks.🔥️
+              </p>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href='https://github.com/purpleFade/Parcel-Delivery-Request-App'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={parcelapp}
+                alt='Parcel delivery request app'
+                />
+              </a>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                Parcel delivery request app is built using Vue.js, CSS, HTML, and TypeScript offering a user-friendly platform for parcel delivery.🔥️
+              </p>
+            </div>
             <div className="basis-1/3 flex-1 ">
               <a
                 href='https://purplefade.github.io/layout_landing-page/'
@@ -219,25 +258,6 @@ export default function Home() {
               </a>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                 Bose&apos;s landing page showcases their products and brand using JavaScript, SCSS, and HTML for an engaging online experience.
-              </p>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <a
-                href='https://github.com/purpleFade/Parcel-Delivery-Request-App'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={parcelapp}
-                alt='Parcel delivery request app'
-                />
-              </a>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-                Parcel delivery request app is built using Vue.js, CSS, HTML, and TypeScript offering a user-friendly platform for parcel delivery.🔥️
               </p>
             </div>
           </div>
