@@ -77,8 +77,10 @@ export default function Home() {
                 <AiFillGithub />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={antonpc} layout="fill" objectFit="cover" alt='Anton is working'/>
+            <div className="flex items-center justify-center h-screen">
+              <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+                <Image src={antonpc} layout="fill" objectFit="cover" alt='Anton is working'/>
+              </div>
             </div>
           </div>
         </section>
@@ -186,7 +188,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <a
-                href='https://purplefade.github.io/react_todo-app/'
+                href='https://purplefade.github.io/react_todo-app-with-api/'
                 target='_blank'
                 rel='noreferrer'
               >
